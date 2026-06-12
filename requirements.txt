@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+matplotlib
+plotly
+openpyxl
+sentence-transformers
+faiss-cpu
+groq
+scikit-learn
+torch
