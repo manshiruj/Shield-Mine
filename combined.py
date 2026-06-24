@@ -70,8 +70,8 @@ np.random.seed(SEED)
 os.environ["PYTHONHASHSEED"] = str(SEED)
 
 st.set_page_config(
-    page_title="Mining Accident Analysis & RAG System",
-    page_icon="⚒️",
+    page_title="Shield Mine",
+    page_icon="assets/logo.png",
     layout="wide",
     initial_sidebar_state="expanded"
 )
