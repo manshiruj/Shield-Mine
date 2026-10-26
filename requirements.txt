@@ -13,6 +13,7 @@ seaborn
 wordcloud
 scipy
 reportlab
+rank_bm25
 langchain
 langchain-core
 langchain-community
