@@ -1106,7 +1106,7 @@ def main():
         groq_model = st.selectbox(
             "ChatGroq Model",
             [
-                "llama-3.1-8b-instant",
+                "openai/gpt-oss-20b",
                 "llama-3.3-70b-versatile",
             ],
             index=0
@@ -1460,7 +1460,7 @@ CRITICAL:
         |------|----------|----------|
         | Embedding | all-MiniLM-L6-v2 (fast) | all-mpnet-base-v2 (better quality) |
         | Reranker | ms-marco-MiniLM-L-6-v2 | ms-marco-MiniLM-L-12-v2 (best quality) |
-        | Chat LLM | llama-3.1-8b-instant (fast) | llama-3.1-70b-versatile (best quality) |
+        | Chat LLM | openai/gpt-oss-20b (fast) | llama-3.1-70b-versatile (best quality) |
 
         ---
 
